@@ -1,7 +1,7 @@
 ---
 ---
 
-1 1/2 lb ground beef 
+1 1/2 lb ground beef  
 1 8 oz. package cream cheese, softened   
 1/2 tsp garlic powder, salt and pepper   
 1 8 oz. container cottage cheese  
