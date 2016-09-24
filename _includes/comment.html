@@ -1,11 +1,9 @@
 <article class="comment">
    <div class="comment__content-wrapper">
-   <p><b>{{ include.name }}</b><br>
-    {% if include.date %}
-            <small><time datetime="{{ include.date | date_to_xmlschema }}" itemprop="datePublished">{{ include.date | date: "%B %d, %Y at %I:%M %p" }}</time></small><br>
-      {% endif %}
-    
-    <div>{{ include.message | markdownify }}</div>
+    <h4>{{ include.name }}</h4>
+        {{ include.message | markdownify }}
+        <small> - <time datetime="{{ include.date | date_to_xmlschema }}" itemprop="datePublished">{{ include.date | date: "%B %d, %Y" }}</time></small>
+  
   </div>
   <hr>
 </article>

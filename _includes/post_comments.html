@@ -1,7 +1,7 @@
    {% if site.data.comments[page.slug] %}
         <!-- Start static comments -->
-        <div class="comments">
-          <h3 class="pad-top">Comments</h3>
+        <div class="comments pad-top">
+          <h3 class="pad-top">Comments:</h3><hr>
           {% assign comments = site.data.comments[page.slug] | sort %}
           {% for comment in comments %}
             {% assign name = comment[1].name %}
