@@ -18,11 +18,11 @@
 <form id="comment-form" method="post" action="https://api.staticman.net/v1/entry/rdyar/tdfc/gh-pages">
    <fieldset>
     <label for="comment-form-name">Name</label>
-    <input type="text" id="comment-form-name" name="fields[name]" tabindex="2" />
+    <input type="text" id="comment-form-name" name="fields[name]" tabindex="1" />
   </fieldset>
   <fieldset>
     <label for="comment-form-message">Comment</label>
-    <textarea type="text" rows="3" id="comment-form-message" name="fields[message]" tabindex="1"></textarea>
+    <textarea type="text" rows="3" id="comment-form-message" name="fields[message]" tabindex="2"></textarea>
   </fieldset>
   <fieldset class="hidden" style="display:none;">
   <input type="hidden" name="options[redirect]" value="{{site.baseurl}}{{page.url}}">
@@ -33,6 +33,6 @@
     <input type="text" id="comment-form-location" name="fields[hidden]" autocomplete="off"/>
   </fieldset>
   <fieldset>
-    <button class="btn btn-primary" type="submit">Submit Comment</button>
+    <button class="btn btn-primary" type="submit" tabindex="3">Submit Comment</button>
   </fieldset>
 </form>
