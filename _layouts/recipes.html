@@ -3,7 +3,7 @@
 <section class="section-main">
 <div class="container">
 <h1 class="pad-top">{{page.title}}</h1>
-{% if recipe.s %}<span style="color:red;">This recipe needs review! There were problems with the OCR scan.</span>{% endif %}
+{% if page.s %}<span style="color:red;">This recipe needs review! There were problems with the OCR scan.</span>{% endif %}
 <hr>
 {{ content }}
 <a class="btn btn-secondary btn-sm" href="https://github.com/rdyar/tdfc/tree/gh-pages/{{ page.relative_path }}">Edit this recipe on GitHub</a>
