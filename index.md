@@ -5,7 +5,7 @@ description: Our families favorite recipes.
 active: yes
 ---
 
-![One of the original Cookbooks from 1995]({%site.baseurl%}/assets/images/the-cookbook.jpg)
+![One of the original Cookbooks from 1995]({{site.baseurl}}/assets/images/the-cookbook.jpg)
 {: .img-responsive}
 
 **This Cookbook is Dedicated to the Memory of my Grandmothers**
