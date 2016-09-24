@@ -11,7 +11,7 @@ active: yes
 **This Cookbook is Dedicated to the Memory of my Grandmothers**
 
 by Deborah Dyar  
-December 1995 (original publish date) 
+<small>- December 1995 (original publish date)</small> 
 
 
 
