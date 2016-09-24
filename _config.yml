@@ -1,0 +1,64 @@
+name: "Dyar Family Recipes"
+#baseurl: /dyar-recipes
+# url: 
+permalink: pretty
+# exclude: 
+highlighter: rouge
+markdown: kramdown
+exclude: ["zz-notes.md","package.json","rakefile.rb","README.md","s3_website.yml","node_modules","gulpfile.js","package.json"]
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+collections:
+  desserts:
+    output: true  
+  main-courses:
+    output: true   
+  soup-and-salad:
+    output: true
+  odds-and-ends:
+    output: true  
+defaults:
+  -
+    scope:
+      path: ""
+      type: "odds-and-ends"
+    values:
+      layout: "recipes"
+  -
+    scope:
+      path: ""
+      type: "soup-and-salad"
+    values:
+      layout: "recipes"  
+  -
+    scope:
+      path: ""
+      type: "main-courses"
+    values:
+      layout: "recipes"  
+  -
+    scope:
+      path: ""
+      type: "desserts"
+    values:
+      layout: "recipes"          
+
+gems: [octopress-autoprefixer]
+
+staticman:
+  allowedFields          : ['name', 'url', 'message']
+  branch                 : "gh-pages"
+  commitMessage          : "New comment."
+  filename               : comment-{@timestamp}
+  format                 : "yml"
+  moderation             : false
+  path                   : "_data/comments/{options.slug}"
+  requiredFields         : ['name', 'message']
+  generatedFields:
+    date:
+      type               : "date"
+      options:
+        format           : "iso8601"
