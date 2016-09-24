@@ -1,4 +1,5 @@
 ---
+s: r
 ---
 
 1 1/4 cups granulated sugar  
