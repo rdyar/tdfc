@@ -124,3 +124,26 @@ it is in a media query cause on small screens the nav is not fixed at the top*/
 }
 }
 li {margin-bottom: 8px;}
+#comment-form {
+    padding: 1em;
+    background: white;}
+input, label, select {
+    display: block;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 0;
+}    
+input, select, select[multiple=multiple], textarea {
+    box-sizing: border-box;
+    -webkit-transition: border-color;
+    transition: border-color;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid #dbdbdb;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,.06);
+    font-family: -apple-system,\.SFNSText-Regular,San Francisco,Roboto,Segoe UI,Helvetica Neue,Lucida Grande,sans-serif;
+    font-size: 16px;
+    margin-bottom: 12px;
+    padding: 8px;
+    width: 100%;
+}
