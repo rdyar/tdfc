@@ -3,7 +3,7 @@
 
 12 flour tortillas  
 3 tablespoons margarine  
-1/4 cup flour 
+1/4 cup flour  
 2 cups chicken broth (or water)  
 1 tablespoon lemon juice  
 1/2 teaspoon onion, chopped  
