@@ -15,8 +15,8 @@ Easy to remember recipe: Just remember 7-11 lemonade.
 
 LIME PUNCH 
 
-2 liter bottle of ginger ale or 7-up 
-1/2 gallon lime sherbet
+2 liter bottle of ginger ale or 7-up  
+1/2 gallon lime sherbet  
 
 Put sherbet in punch bowl. Slowly pour soda over sherbet. Try other varieties of sherbet for 
 different colors.
