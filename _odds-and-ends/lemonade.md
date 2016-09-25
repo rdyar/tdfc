@@ -1,5 +1,5 @@
 ---
-s: r
+boom: dynamite
 ---
 
 1 cup lemon juice (fresh squeezed)  
