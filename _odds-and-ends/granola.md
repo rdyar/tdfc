@@ -11,7 +11,7 @@ s: r
 
 Mix all ingredients together.  
 Spread out on one large baking sheet.  
-Bake at 250 degrees fro 1 hour 15 minutes.  
+Bake at 250 degrees for 1 hour 15 minutes.  
 Stir every 15 minutes or so. 
 
 
