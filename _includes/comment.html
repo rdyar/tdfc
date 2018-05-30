@@ -1,7 +1,7 @@
 <article class="comment">
    <div class="comment__content-wrapper">
     <h4>{{ include.name }}</h4>
-      <pre> {{ include.message  }}</pre>
+ {{ include.message  }}
         <small> - <time datetime="{{ include.date | date_to_xmlschema }}" itemprop="datePublished">{{ include.date | date: "%B %d, %Y" }}</time></small>
   
   </div>
