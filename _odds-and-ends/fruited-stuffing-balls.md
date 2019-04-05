@@ -1,5 +1,4 @@
 ---
-s: r
 --- 
 
 2 cups diced celery 
