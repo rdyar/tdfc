@@ -1,14 +1,13 @@
 ---
-s: r
 ---
 
 1 1/4 cups granulated sugar  
 1/2 cup water  
 1 12-oz package cranberries (3 cups)  
-% cup snipped dried apricots  
+3/4 cup snipped dried apricots  
 3 Tbsp cider vinegar   
 3 Tbsp brown sugar  
-3 Tbsp minced fresh ginger 
+1 Tbsp minced fresh ginger 
 
 
 Directions 
