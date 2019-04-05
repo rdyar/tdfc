@@ -1,5 +1,4 @@
 ---
-s: r
 ---
 
 1 cup quick cook rolled oats  
