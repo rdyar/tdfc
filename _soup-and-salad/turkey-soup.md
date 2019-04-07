@@ -1,5 +1,4 @@
 ---
-s: r
 ---
 
 turkey bones, leftover from turkey dinner  
