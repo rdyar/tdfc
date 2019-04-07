@@ -8,7 +8,8 @@ mayonnaise, enough to hold ingredients together
 
 Mix together and serve alone or on a lettuce leaf. 
 
-Fnr4 SAI An ????
+
+Egg Salad
 
 hard boiled eggs, shelled and mashed  
 mustard, to taste  
