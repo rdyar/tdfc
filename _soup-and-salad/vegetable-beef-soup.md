@@ -1,5 +1,4 @@
 ---
-s: r
 ---
 
 leftover roast beef  
@@ -17,7 +16,7 @@ zucchini
 peas  
 bell peppers  
 lentils  
-cam???  
+corn 
 
 
 Cut leftover beef into bite size pieces. In a large pot, combine beef, gravy, onions, celery, 
