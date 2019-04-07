@@ -1,10 +1,9 @@
 ---
-s: r
 ---
 
-'A medium apple, chopped ??  
-1 small stalk celery  
-2 tablespoons chopped nuts (walnuts)  
+1/2 medium apple, chopped 
+1 small stalk celery, chopped  
+2 tablespoons chopped nuts (walnuts), chopped  
 2 tablespoons mayonnaise  
 2 tablespoons raisins  
 lettuce leaf  
