@@ -13,7 +13,8 @@ drain water. Add remaining ingredients and heat until hot.
 
 Makes 3-4 servings. 
 
-rADRN C.HCIWI1FR ???
+
+Corn Chowder
 
 Follow Potato Soup recipe. Cook potatoes and onion. Add 1 can small or large can (to taste) 
 creamed or whole kemel corn. Add milk and remaining ingredients.
