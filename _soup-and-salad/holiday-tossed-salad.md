@@ -1,5 +1,4 @@
 ---
-s: r
 ---
 
 1 package Italian blend salad greens (10 oz)  
