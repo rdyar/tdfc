@@ -4,13 +4,14 @@
 12 flour tortillas  
 3 tablespoons margarine  
 1/4 cup flour  
-2 cups chicken broth (or water)  
+2 cups chicken broth (or water) divided-some for burrito, some for sauce  
 1 tablespoon lemon juice  
-1/2 teaspoon onion, chopped  
+1/2 cup onion, chopped  
 1/2 cup sour cream  
 dash paprika  
 dash pepper  
-1-1/2 cups diced cooked chicken (approx) 
+1 1/2 cups diced cooked chicken (approx) 
+grated cheese
 
 In skillet melt butter and cook onion. Blend flour into 1 cup water or broth and keep stirring as 
 you add it to onions. Stir continually until mixture thickens. Add lemon juice, paprika and pepper 
