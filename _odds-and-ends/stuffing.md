@@ -4,7 +4,7 @@
 Turkey giblets, to make broth  
 1 stalk celery, chopped  
 1/2 onion, chopped  
-1/2 to 1 cup chicken or turkey broth  
+1/2 to 1 cup chicken or turkey broth (May need to add a bit more broth so that mixture sticks together.)  
 4 tablespoons butter  
 1/2 box of prepackaged seasoned stuffing mix  
 stale bread crumbs, approximately 4 cups  
