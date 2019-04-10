@@ -1,5 +1,4 @@
 ---
-s: r
 ---
 
 1 can Salmon, drained , skinned, boned and flaked (small can)  
