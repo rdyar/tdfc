@@ -14,3 +14,5 @@ cooked 1 hour already). Cover beans with water Add onion and salt and pepper and
 Bring to high heat then simmer 4-5 hours. Stir occasionally. Remove bone and ugly pieces of 
 meat. Pour off any excess liquid. Serve with bread and salad for a complete dinner. Some 
 Dyars like to top with ketchup or salsa.
+
+If cooking in the crock pot, needs several hours on high to cook beans. 
