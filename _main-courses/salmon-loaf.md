@@ -10,7 +10,7 @@ s: r
 1 teaspoon lemon juice  
 1 teaspoon chopped onion  
 1 tablespoon chopped green pepper (optional)  
-2 cups Special-K cereal (or use % to 1 cup cracker crumbs)?? 
+2 cups Special-K cereal (or use 1/2 to 1 cup cracker crumbs) 
 
 Combine all ingredients and mix well. Spread in greased 9x5 loaf pan. Bake at 350 degrees for 
 30 minutes. 
