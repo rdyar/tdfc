@@ -24,4 +24,6 @@ carrots, potatoes and cover with about 4 cups of water. Add tomatoes and Au Juic
 more water if needed. Season with pepper and garlic salt. Bring to a boil and simmer for 4-5 
 hours, or all day in a crock pot. Add any other vegetables during the last 1/2 hour. 
 
-Serve with sourdough bread.
+Serve with sourdough bread.  
+
+Note: Can be cooked in crock pot - but may need to reduce the amount of vegetables
