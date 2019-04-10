@@ -1,10 +1,10 @@
 ---
 ---
 
-Leftover Spaghetti sauce, about 3 cups  
+Leftover Spaghetti sauce, about 3 cups (may need more)  
 oregano and garlic salt to taste  
-8 Lasagna noodles, pre-cooked  
-8 oz Cottage cheese or Ricotta cheese  
+8 Lasagna noodles, pre-cooked (they grow when cooked)  
+8-16 oz Cottage cheese or Ricotta cheese  
 2-3 cups shredded Mozzarella cheese  
 Parmesan cheese 
 
