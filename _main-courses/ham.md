@@ -1,7 +1,7 @@
 ---
 ---
 
-Butt or Shank cut ham  
+Butt (or Shank) cut ham  
 Whole cloves  
 1 large can pineapple rings 
 
