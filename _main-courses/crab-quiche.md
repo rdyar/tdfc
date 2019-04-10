@@ -13,8 +13,8 @@ In blender (or bowl) mix:
 dash salt 
 
 Pour into large bowl. 
-Stir in: 
 
+Stir in: 
 sauteed mushrooms, if desired  
 2 cups shredded Monterey Jack cheese (1/2 pound)  
 6 oz fresh or frozen crab meat (thawed and drained) or use imitation crab.   
@@ -25,4 +25,4 @@ comes out clean. Let stand 5 minutes before cutting into 8 wedges.
 This freezes well. Also try, baking individual quiches in a muffin tin (no paper liners), then freeze 
 and use as needed. 
 
-You may substitute 1 cup diced cooked ham for the crab.  Or try vegetables.  Or hash browns and crumbled bacon.
+You may substitute 1 cup diced cooked ham for the crab.  Or try vegetables.  If using frozen vegetables, add them in last or your mixture will freeze up.  Or try hash browns and crumbled bacon.
