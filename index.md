@@ -81,7 +81,7 @@ Top Sirloin steak: Mom's choice to use to marinate and barbecue.
           {% assign comments = site.data.comments | sort %}
           {% for comment in comments %}
 
-  {{comment[0]}}<br>
+  <a href="/recipes/{{comment[0]}}/">{{comment[0]}}</a><br>
   {% for subcomment in comment[1] %}
      {% assign name = subcomment[1].name %}
      {% assign date = subcomment[1].date %}
@@ -89,6 +89,6 @@ Top Sirloin steak: Mom's choice to use to marinate and barbecue.
      {% include comment.html index=forloop.index name=name url=date=date message=message %}
 
 {% endfor %}
- <hr>
- {% endfor %}
+
+ {% endfor %} <hr>
         </div>
