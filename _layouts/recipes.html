@@ -6,7 +6,7 @@
   {% if page.s %}<span style="color:red;">This recipe needs review! There were problems with the OCR scan.</span>{% endif %}
 <hr>
   {% if page.image %}
-<img src="/recipe-images/{{page.image}}" class="img-responsive" alt="{{page.title}}">
+<img src="{{site.baseurl}}/recipe-images/{{page.image}}" class="img-responsive" alt="{{page.title}}">
   {% endif %}
   {{ content }}
 <a class="btn btn-secondary btn-sm" href="https://github.com/rdyar/tdfc/tree/gh-pages/{{ page.relative_path }}">Edit this recipe on GitHub</a>
