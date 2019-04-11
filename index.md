@@ -75,3 +75,15 @@ Top Sirloin steak: Mom's choice to use to marinate and barbecue.
 ---
 {% for recipe in site.desserts %}
 [{{recipe.title}}]({{site.baseurl}}{{ recipe.url }}){% if recipe.s %}<span style="color:red;"> Needs Review!</span>{% endif %}  {% endfor %}
+
+ <div class="comments pad-top">
+          <h3 class="pad-top">What people are saying:</h3><hr>
+          {% assign comments = site.data.comments | sort %}
+          {% for comment in comments %}
+            {% assign name = comment[1].name %}
+            {% assign url = comment[1].url %}
+            {% assign date = comment[1].date %}
+            {% assign message = comment[1].message %}
+            {% include comment.html index=forloop.index name=name url=url date=date message=message %}
+          {% endfor %}
+        </div>
