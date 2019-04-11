@@ -1,4 +1,5 @@
 ---
+image: peach-crisp.jpg
 ---
 
 1 cup Bisquick  
