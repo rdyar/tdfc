@@ -83,6 +83,7 @@ Top Sirloin steak: Mom's choice to use to marinate and barbecue.
           {% for comment in comments %}
  {{comment[0]}}
  {% for subcomment in comment %}
+ {{comment[1]}}
             {% assign name = subcomment[1].name %}
             {% assign url = subcomment[1].url %}
             {% assign date = subcomment[1].date %}
