@@ -88,7 +88,8 @@ Top Sirloin steak: Mom's choice to use to marinate and barbecue.
      {% assign about = {{comment[0]}} %}
     <article class="comment">
    <div class="comment__content-wrapper">
-    <h4>{{name}} ({{about}})</h4>
+    <h4>{{name}}</h4>
+    Commenting on: {{about}}<br>
  {{ message  }}
         <small> - <time datetime="{{ date | date_to_xmlschema }}" itemprop="datePublished">{{ date | date: "%B %d, %Y" }}</time></small>
   
