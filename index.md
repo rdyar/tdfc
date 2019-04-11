@@ -51,3 +51,27 @@ Top Sirloin steak: Mom's choice to use to marinate and barbecue.
 16 Tablespoons = 1 cup
 
 3 Tablespoons cocoa + 1 Tablespoon oil = 1 square baking chocolate
+
+## Odds and Ends
+{: .pad-top} 
+---
+{% for recipe in site.odds-and-ends %}
+[{{recipe.title}}]({{site.baseurl}}{{ recipe.url }}) {% if recipe.s %}<span style="color:red;"> Needs Review!</span>{% endif %}  {% endfor %}
+
+## Soups and Salads
+{: .pad-top}
+---
+{% for recipe in site.soup-and-salad %}
+[{{recipe.title}}]({{site.baseurl}}{{ recipe.url }}) {% if recipe.s %}<span style="color:red;"> Needs Review!</span>{% endif %}  {% endfor %}
+
+## Main Courses / Vegetables
+{: .pad-top}
+---
+{% for recipe in site.main-courses %}
+[{{recipe.title}}]({{site.baseurl}}{{ recipe.url }}) {% if recipe.s %}<span style="color:red;"> Needs Review!</span>{% endif %}  {% endfor %}
+
+## Desserts 
+{: .pad-top}
+---
+{% for recipe in site.desserts %}
+[{{recipe.title}}]({{site.baseurl}}{{ recipe.url }}){% if recipe.s %}<span style="color:red;"> Needs Review!</span>{% endif %}  {% endfor %}
