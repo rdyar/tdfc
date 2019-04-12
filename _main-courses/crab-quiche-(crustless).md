@@ -7,7 +7,7 @@ In blender (or bowl) mix:
 1 cup (8oz) sour cream  
 1 cup cottage cheese  
 1/2 cup grated Parmesan cheese  
-4 drops Tabasco sauce   
+dash to 4 drops Tabasco sauce (to taste)   
 4 tablespoons flour  
 1 teaspoon onion powder  
 dash salt 
