@@ -1,5 +1,4 @@
 ---
-s: r
 ---
 
 1 can (10 3/4 oz) condensed cream of celery soup  
@@ -7,7 +6,7 @@ s: r
 1 can (6 1/2 oz) water-packed tuna, drained and flaked  
 1 cup elbow macaroni (uncooked)  
 1 cup frozen green peas  
-IA cup chopped onion ?? 
+1/2 cup chopped onion  
 1 cup coarsely shredded cheddar cheese (reserve 1/4 cup) 
 
 Whisk soup and milk in a 2-quart microwave safe bowl until well blended. Stir in remaining 
