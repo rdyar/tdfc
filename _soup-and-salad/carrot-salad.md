@@ -1,5 +1,4 @@
 ---
-s: r
 ---
 
 shredded/grated carrots  
