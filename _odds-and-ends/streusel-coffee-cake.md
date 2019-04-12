@@ -20,3 +20,12 @@ cake pan. Sprinkle half of filling over batter. Pour in remaining batter and spr
 rest of the filling. 
 
 Bake at 350 degrees for 40 minutes.
+
+
+Mom's alternate streusel topping:
+In bowl, knead into large pieces:  
+1 cup walnuts, chopped  
+2/3 cup all purpose flour  
+1/2 cup packed brown sugar  
+4 tablespoons butter  
+1 teaspoon cinnamon
