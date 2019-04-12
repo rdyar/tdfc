@@ -4,8 +4,10 @@
 6 bone-in pork loin chops  
 1 can jellied cranberry sauce (16 oz)  
 1/2 cup cranberry or apple juice  
-% cup sugar???  
+1/4 cup sugar  
 2 Tbsp spicy brown mustard  
+
+For sauce:  
 2 Tbsp cornstarch   
 1/4 cup cold water  
 1/2 teaspoon salt  
