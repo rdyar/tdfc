@@ -1,5 +1,4 @@
 ---
-s: r
 ---
 
 Oven roast or pot roast  
@@ -13,9 +12,9 @@ degrees until done (about 1/2 hour per pound or 3-4 hours). Or use Schilling ove
 with mix for Pot Roast-follow directions. 
 
 You can also do this in a crock pot. Put vegetables in first, then seasoned meat (salt and 
-pepper) and about % cup of beef consume.??? 
+pepper) and about 1/2 cup of beef consume. 
 
 Make sure to cook a larger roast than needed so there is plenty leftover. Use leftovers for hash, 
-soup, roast beef sandwiches, bbq sandwiches, french dip sandwiches. 
+soup, roast beef sandwiches, bbq sandwiches, french dip sandwiches. And dad's tacos!
 
 You can leave vegetables whole instead of cutting them up. Use 1 each per person.
