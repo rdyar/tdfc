@@ -1,5 +1,4 @@
 ---
-s: r
 ---
 
 1-2 carrots, diced  
@@ -7,7 +6,7 @@ s: r
 1 small potato, diced  
  1/2 cup frozen peas  
 2-3 tablespoons flour  
-'A cup water??  
+1/2 cup water  
 pepper and garlic powder to taste  
 2-3 cups cooked diced chicken or turkey  
 2/3 cup milk  
