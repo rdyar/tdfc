@@ -1,5 +1,4 @@
 ---
-s: r
 ---
 
 2 parts maple syrup  
@@ -14,4 +13,4 @@ Mix all ingredients together.
 
 Spread coated vegetables out on one large baking sheet. 
 
-Cook at 375 degrees for 1 %??? hours or until tender 
+Cook at 375 degrees for 1 1/2 hours or until tender 
