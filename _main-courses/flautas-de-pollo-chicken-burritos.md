@@ -10,7 +10,7 @@
 1/2 cup sour cream  
 dash paprika  
 dash pepper  
-1 1/2 cups diced cooked chicken (approx) 
+1 1/2 cups diced cooked chicken (approx)  
 grated cheese
 
 In skillet melt butter and cook onion. Blend flour into 1 cup water or broth and keep stirring as 
