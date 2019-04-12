@@ -1,13 +1,13 @@
 ---
 ---
 
-2 chickens, 3-3 1/2 lbs each 
-2 cans beer (1/2 full) 
+2 chickens, 3-3 1/2 lbs each  
+2 cans beer (1/2 full)  
 2 Tablespoons brown sugar  
-2 Tablespoons paprika 
-1 Tablespoon salt & pepper 
-1 tsp garlic powder 
-1 tsp cayenne pepper 
+2 Tablespoons paprika  
+1 Tablespoon salt & pepper  
+1 tsp garlic powder  
+1 tsp cayenne pepper  
 
 Bourbon Butter Glaze:  
 In a small sauce pan, melt 6 Tablespoons butter with 1/4 cup brown sugar, 2 Tablespoons bourbon,  
