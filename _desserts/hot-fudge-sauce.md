@@ -1,12 +1,11 @@
 ---
-s: r
 ---
 
-1/2 cup + 1 tablespoon cocoa powder??  
-IA cup milk ??  
+1/2 cup + 1 tablespoon cocoa powder  
+1/2 cup milk   
 3/4 cup sugar  
 dash of salt  
-1/4 cup + 3 tablespoons margarine??  
+1/4 cup + 3 tablespoons margarine or butter  
 1/2 teaspoon vanilla  
 
 Combine cocoa with 3 tablespoons margarine and milk. Microwave 3 minutes on high, 
