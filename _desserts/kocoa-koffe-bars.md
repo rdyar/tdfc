@@ -1,15 +1,16 @@
 ---
 ---
 
-1/2 cup margarine (or substitute 1/4 cup margarine & 1/4 cup applesauce)  
+1/2 cup margarine, melted (or substitute 1/4 cup margarine & 1/4 cup applesauce)  
 Stir in 1 cup sugar  
 1 teaspoon vanilla  
+1 Tablespoon instant coffee  
 
 Beat in 1 egg  
+
 Gradually add 2/3 cup flour  
 1/3 cup cocoa powder  
 1/2 teaspoon baking powder  
-1 tablespoon instant coffee  
 
 Stir until well blended 
 
