@@ -1,13 +1,12 @@
 ---
-s: r
 ---
 
 4 cups flour  
 2 tablespoons unsweetened cocoa powder  
 2 teaspoons baking soda  
-1 'A teaspoons ground cinnamon   
+1 1/2 teaspoons ground cinnamon   
 1/2 teaspoon ground cloves  
-'A teaspoon salt?  
+1/2 teaspoon salt  
 3/4 cup butter or margarine, room temperature (1 1/2 sticks)  
 1 1/4 cups granulated sugar  
 1 cup light molasses  
