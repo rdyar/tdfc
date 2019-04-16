@@ -1,9 +1,8 @@
 ---
-s: r
 ---
 
 1 1/4 cups flour  
-IA cup sugar??  
+1/2 cup sugar  
 1/4 teaspoon salt  
 1/2 teaspoon baking powder  
 1 teaspoon vanilla, almond or lemon extract  
