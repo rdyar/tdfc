@@ -1,5 +1,4 @@
 ---
-s: r
 ---
 
 
@@ -11,12 +10,15 @@ Melt together and stir until smooth:
 
 Stir in	3/4 cups chopped nuts  
 1 teaspoon vanilla  
+
 Keep warm.  
 
 In a large bowl, mix:	
 
-3 cups flour 1 3/4 cups brown sugar	 
-'1/2 teaspoon baking soda 3/4 teaspoon salt?  
+3 cups flour  
+1 3/4 cups brown sugar	 
+1/2 teaspoon baking soda  
+3/4 teaspoon salt  
 
 Add	1 cup butter (2 sticks)  
 3 eggs  
