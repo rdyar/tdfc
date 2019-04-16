@@ -16,3 +16,10 @@ thoroughly before cutting. Store, loosely covered at room temperature.
 (Microwave 10 minutes. Brown 1 minute under broiler.) 
 
 OK to freeze.
+
+
+2019 update:  Variations
+Instead of grahm cracker crumbs, try: crushed chocolate cookies, vanilla wafers, sugar cookies, oreo cookies
+Instead of chocolate chips, try: butterscotch chips, mint chips, peanut butter chips, raisins
+Instead of coconut, try: mini marshmallows, crushed cornflakes, rice crispies
+Use Walnuts, pecans or peanuts
