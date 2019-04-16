@@ -10,7 +10,7 @@
 1/2 cup milk  
 1 teaspoon vanilla  
 2 tablespoons melted shortening  
-3/4 to 1 cup chopped walnuts  
+3/4 to 1 cup chopped walnuts (optional)  
 3/4 cup brown sugar  
 1/4 cup cocoa  
 1 3/4 cups hot water  
