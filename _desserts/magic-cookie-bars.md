@@ -19,7 +19,7 @@ OK to freeze.
 
 
 2019 update:  Variations
-Instead of grahm cracker crumbs, try: crushed chocolate cookies, vanilla wafers, sugar cookies, oreo cookies
-Instead of chocolate chips, try: butterscotch chips, mint chips, peanut butter chips, raisins
-Instead of coconut, try: mini marshmallows, crushed cornflakes, rice crispies
-Use Walnuts, pecans or peanuts
+Instead of grahm cracker crumbs, try: crushed chocolate cookies, vanilla wafers, sugar cookies, oreo cookies  
+Instead of chocolate chips, try: butterscotch chips, mint chips, peanut butter chips, raisins  
+Instead of coconut, try: mini marshmallows, crushed cornflakes, rice crispies  
+Use Walnuts, pecans or peanuts  
