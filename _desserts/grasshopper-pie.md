@@ -15,3 +15,6 @@ or over ice) until mixture mounds when dropped from spoon. Stir in the two creme
 whipped cream. Pour into pie shell. Freeze. Serve frozen. 
 
 Can be made days ahead of time.
+
+
+2019 update:  9" pie pan is too small for filling
