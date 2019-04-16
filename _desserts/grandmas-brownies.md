@@ -16,4 +16,4 @@ Add nuts. Spread in greased 8x12 pan. Bake at 350 degrees for 20-25 minutes. Spr
 powdered sugar. 
 
 
-
+2019 update: use 1/2 cup of cocoa powder and add chocolate chips
