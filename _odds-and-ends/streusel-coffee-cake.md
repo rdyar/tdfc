@@ -22,10 +22,12 @@ rest of the filling.
 Bake at 350 degrees for 40 minutes.
 
 
+
 Mom's alternate streusel topping:
-In bowl, knead into large pieces:  
-1 cup walnuts, chopped  
+In bowl, mix together:   
 2/3 cup all purpose flour  
 1/2 cup packed brown sugar  
-4 tablespoons butter  
+4 tablespoons melted butter  
 1 teaspoon cinnamon
+
+Add 1 cup chopped nuts.  Sprinkle/crumble on top.  Bake. 
