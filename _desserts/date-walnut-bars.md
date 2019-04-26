@@ -8,7 +8,7 @@ Crust:
 1 cup butter (2 sticks), softened  
 1/2 teaspoon salt  
 
-Grease bottom and sides of 15x10 baking pan (with sides at least 1 inch high). In large bowl, 
+Grease bottom and sides of 15x10 baking pan (jelly role pan - with sides at least 1 inch high). In large bowl, 
 beat flour, 1/2 cup sugar, butter and salt with mixer at medium speed until mixture resembles 
 coarse crumbs. Press firmly and evenly into pan. Bake in 350 degree oven for 20 minutes. 
 
