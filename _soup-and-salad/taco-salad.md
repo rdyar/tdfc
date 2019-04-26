@@ -4,8 +4,8 @@
 ground beef flavored with taco seasonings, cooked and cooled  
 lettuce, torn in small pieces (salad size)  
 tomato, diced  
-avocado, diced (optional)  
-onion, diced or thinly sliced  
+avocado, diced  
+onion, diced or thinly sliced (optional)  
 grated cheese (your choice of cheese)  
 kidney beans  
 
