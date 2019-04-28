@@ -1,5 +1,5 @@
 ---
-image: spaghetti-sauce2.JPG
+image: spaghetti-sauce2.jpg
 ---
 
 2 cans tomato paste, small  
