@@ -14,3 +14,4 @@ Mix all ingredients together, rinsing tomato cans with water and adding to sauce
 hour or two, or put in slow cooker on low for 8-10 hours. 
 
 Serve over cooked pasta, stuffed shells or toast. Use this sauce in Lasagna recipe.
+
