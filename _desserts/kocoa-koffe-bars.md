@@ -1,5 +1,5 @@
 ---
-image: Kokoa-coffee-brownies.JPG
+image: Kocoa-koffee-brownies.JPG
 ---
 
 1/2 cup margarine, melted (or substitute 1/4 cup margarine & 1/4 cup applesauce)  
