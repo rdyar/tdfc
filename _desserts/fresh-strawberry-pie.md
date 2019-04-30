@@ -1,5 +1,5 @@
 ---
-image: strawberry-pie-slice.JPG
+image: straberry-pie-slice.JPG
 ---
 
 
