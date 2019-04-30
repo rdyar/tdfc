@@ -1,4 +1,5 @@
 ---
+image: strawberry-pie-slice.jpg
 ---
 
 
