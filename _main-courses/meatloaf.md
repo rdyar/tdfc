@@ -1,4 +1,5 @@
 ---
+image: meatloaf.jpg
 ---
 
 1 pound ground beef  
