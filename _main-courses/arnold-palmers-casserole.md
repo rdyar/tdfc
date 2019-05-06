@@ -1,4 +1,5 @@
 ---
+image: palmer.jpg 
 ---
 
 1 1/2 lb ground beef  
