@@ -25,7 +25,7 @@
     <textarea rows="10" cols="30" id="comment-form-message" name="fields[message]" pattern="^[a-zA-Z0-9 ?!$%&*-_]+$" title="Keep it simple, text and number only" tabindex="2"></textarea>
   </fieldset>
   <fieldset class="hidden" style="display:none;">
- <!-- <input type="hidden" name="options[redirect]" value="https://rdyar.github.io/tdfc{{page.url}}"> -->
+ <input type="hidden" name="options[redirect]" value="https://rdyar.github.io/tdfc{{page.url}}">
     <!-- used by Staticman to generate filenames for each comment -->
     <input type="hidden" name="options[slug]" value="{{ page.slug }}">
     <!-- honey pot field used to filter out spam -->
@@ -33,7 +33,7 @@
     <input type="text" id="comment-form-location" name="fields[hidden]" autocomplete="off"/>
   </fieldset>
   <fieldset>
-    <button class="btn btn-primary" type="submit" tabindex="3">Submit Comment</button>
+   <!--  <button class="btn btn-primary" type="submit" tabindex="3">Submit Comment</button> -->
   </fieldset>
 </form>
 
