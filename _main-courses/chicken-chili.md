@@ -22,3 +22,7 @@ Stir in turkey or chicken; cook about 10 minutes or until heated through.  Stir 
 Makes 8 to 10 servings.  
 
 Freezes well.
+
+
+Notes: 
+I found 5 cups of chicken to be way too much.  I use about half of that, or maybe add in more beans and broth.  I make this recipe with plain old regular Monterey Jack cheese.  It's good served with diced avocado and additional cheese.  -- Deb
