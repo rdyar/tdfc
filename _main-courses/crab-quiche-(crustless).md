@@ -3,8 +3,8 @@
 
 In blender (or bowl) mix: 
 
-2 eggs 
-1 cup (8oz) sour cream  
+2 eggs  
+1 cup (8oz) sour cream   
 1 cup cottage cheese  
 1/2 cup grated Parmesan cheese  
 dash to 4 drops Tabasco sauce (to taste)   
