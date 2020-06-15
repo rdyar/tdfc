@@ -18,8 +18,8 @@ Filling:
 
 Preheat oven to 350 degrees.  Grease a 9 1/2 deep dish pie plate or similar sized baking dish. Set aside.  
 
-In a large bowl, combine oats, flur, sugars, salt and cinnamon.  Add melted butter and stir until well combined.  Transfer to the freezer for a few minutes while you assemble the fruit filling.  
+In a large bowl, combine oats, flour, sugars, salt and cinnamon.  Add melted butter and stir until well combined.  Transfer to the freezer for a few minutes while you assemble the fruit filling.  
 
 In a large bowl, combine all filling ingredients.  Stir gently until well combined.  Dump into prepared baking dish.  
 
-Sprinkle the topping over the berries (pressing some of it together iwth your fingers to form clumps).  Bake for 40-50 minutes until the fruit is bubblig and juicy and the topping is light golden brown.  Cool slightly, serve warm with vanilla ice cream. 
+Sprinkle the topping over the berries (pressing some of it together with your fingers to form clumps).  Bake for 40-50 minutes until the fruit is bubbling and juicy and the topping is light golden brown.  Cool slightly, serve warm with vanilla ice cream. 
