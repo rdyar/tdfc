@@ -4,7 +4,7 @@
 
 1 cup butter  
 1/2 cup powdered sugar  
-2 1/2 cups flour  (2 cups for crust, 1/2 cup for lemon mixture)
+2 1/2 cups flour  (2 cups for crust, 1/2 cup for lemon mixture)  
 4 eggs  
 1 3/4 cups granulated sugar  
 1 teaspoon grated lemon peel  
