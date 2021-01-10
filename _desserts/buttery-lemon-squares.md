@@ -25,4 +25,7 @@ Bake 15-20 minutes or until pale gold. Remove from oven and sprinkle evenly with
 sugar, let cool. To serve, cut in small squares. 
 
 
-Freezer friendly.
+Freezer friendly.  
+
+
+Some recipes call for melting the butter instead of creaming it.  I tried it and it was just as good and easier to spread in the pan.  
