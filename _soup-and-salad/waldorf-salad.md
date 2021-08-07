@@ -1,9 +1,9 @@
 ---
 ---
 
-1/2 medium apple, chopped 
+1/2 medium apple, chopped  
 1 small stalk celery, chopped  
-2 tablespoons chopped nuts (walnuts), chopped  
+2 tablespoons chopped nuts (walnuts)  
 2 tablespoons mayonnaise  
 2 tablespoons raisins  
 lettuce leaf  
