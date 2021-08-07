@@ -7,7 +7,7 @@ coconut to taste
 
 Mix all ingredients. Best if made the day before needed so ingredients mix together well. 
 
-This recipe has many different variations. It can be made with any type crf,fruit. Use whatever 
+This recipe has many different variations. It can be made with any type of fruit. Use whatever 
 you like. It usually has pineapple and coconut in it. 
 
 Mom always uses sour cream, however, you can use sour cream or cool whip to hold it together. 
