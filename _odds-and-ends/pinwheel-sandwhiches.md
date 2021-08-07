@@ -4,7 +4,7 @@
 Flour tortillas or Armenian cracker bread (lahvosh)  
 1 package (8 oz) cream cheese, softened  
 1 package ranch salad dressing mix  
-Spices to taste: fresh basil, oregano, salt and pepper, garlic powder 
+Spices to taste: fresh basil, oregano, salt and pepper, garlic powder  
 1 large tomato, very thinly sliced  
 4 oz very thinly sliced smoked turkey or ham  
 2 oz very thinly sliced Monterey jack or Swiss cheese  
