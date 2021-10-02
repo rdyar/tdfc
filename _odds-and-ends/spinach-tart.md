@@ -21,6 +21,6 @@ Bake about 20 min. or until golden brown and crispy.
 Allow to cool a little before cutting.  
 
 Serves 4  
-This recipe is flexible!  I used 1 ½ sheets of pastry and 2 pkgs of spinach to serve 6.  
+This recipe is flexible!  Mom uses 1 ½ sheets of pastry and 2 pkgs of spinach to serve 6.  
 
 New 9/2021
