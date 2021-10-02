@@ -1,7 +1,5 @@
-
-
-
-
+---
+---
 
 1 sheet puff pastry defrosted and smoothed out to a rectangle with edges fluted  
 ½ C chopped onion  
@@ -22,6 +20,7 @@ Add mixture to prepared pastry spreading just close to edges.
 Bake about 20 min. or until golden brown and crispy.  
 Allow to cool a little before cutting.  
 
-serves 4
+Serves 4  
 This recipe is flexible!  I used 1 ½ sheets of pastry and 2 pkgs of spinach to serve 6.  
+
 New 9/2021
