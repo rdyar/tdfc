@@ -1,3 +1,6 @@
+---
+---
+
 (recipe from Suzi Bennett 5/1978)  
 
 1 Small can diced green chiles  
