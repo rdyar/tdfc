@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<h1 class="pad-top">What is for Dinner?</h1>
+<p>The Supper Computer suggests:</p>
+<div id="dinner"></div>
+
+<script src="{{site.baseurl}}/assets/js/recipes.js"></script>
+<script>
+  console.log("main_courses :>> ", main_courses);
+  // get random recipe from main_courses list in recipes.js
+  console.log("main.length", main.length);
+  var randomRecipe =
+    main_courses[Math.floor(Math.random() * main_courses.length)];
+  console.log("randomRecipe :>> ", randomRecipe);
+  // add p to dinner div with random recipe
+  document.getElementById("dinner").innerHTML =
+    "<p>" + randomRecipe.title + "</p>";
+</script>

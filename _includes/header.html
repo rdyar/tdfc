@@ -1,33 +1,78 @@
 <!DOCTYPE html>
- <html lang="en"> 
-<head>
-    <title>{% if page.title %}{{ page.title }}{% else %}The Family Recipes{% endif %}</title>  
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="{{page.description | xml_escape}}">
-    <link rel="canonical" href="http://rdyar.github.io/{{site.baseurl}}{{ page.url | replace:'index.html',''}}" />
-    <link rel="shortcut icon" href="{{site.baseurl}}/assets/images/favicon.ico">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
-    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/site.css">   
-</head>
-<body class="site">
+<html lang="en">
+  <head>
+    <title>
+      {% if page.title %}{{ page.title }}{% else %}The Family Recipes{% endif %}
+    </title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="{{page.description | xml_escape}}" />
+    <link
+      rel="canonical"
+      href="http://rdyar.github.io/{{site.baseurl}}{{ page.url | replace:'index.html',''}}"
+    />
+    <link
+      rel="shortcut icon"
+      href="{{site.baseurl}}/assets/images/favicon.ico"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Bitter"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/site.css" />
+  </head>
+  <body class="site">
     <header class="site-header">
-    <nav>
-    <div class="sticky-nav">
-    <div class="container-nav">
-       <div class="nav-container">
-         <div class="navbar-brand"> <a href="{{site.baseurl}}/"><h1>TDFC</h1></a> </div>
-         <div class="navbar-nav nav-mobile">
-            <a class="nav-item nav-link btn btn-nav" href="{{site.baseurl}}/">Home</a>
-            <a class="nav-item nav-link btn btn-nav" href="{{site.baseurl}}/recipes/">Recipes</a>
-         </div>
-         <div class="navbar-nav nav-main">
-            <a class="nav-item nav-link{% if page.active %} active{% endif %}" href="{{site.baseurl}}/">Home</a>
-            <a class="nav-item nav-link{% if page.url == '/recipes/' %} active{% endif %}" href="{{site.baseurl}}/recipes/">Recipes</a>
-         </div>
-      </div>  
-      </div>
-      </div>
-</nav>
-</header>
+      <nav>
+        <div class="sticky-nav">
+          <div class="container-nav">
+            <div class="nav-container">
+              <div class="navbar-brand">
+                <a href="{{site.baseurl}}/"><h1>TDFC</h1></a>
+              </div>
+              <div class="navbar-nav nav-mobile">
+                <a
+                  class="nav-item nav-link btn btn-nav"
+                  href="{{site.baseurl}}/"
+                  >Home</a
+                >
+                <a
+                  class="nav-item nav-link btn btn-nav"
+                  href="{{site.baseurl}}/recipes/"
+                  >Recipes</a
+                >
+                <a
+                  class="nav-item nav-link btn btn-nav"
+                  href="{{site.baseurl}}/what-is-for-dinner/"
+                  >Ideas</a
+                >
+              </div>
+              <div class="navbar-nav nav-main">
+                <a
+                  class="nav-item nav-link{% if page.active %} active{% endif %}"
+                  href="{{site.baseurl}}/"
+                  >Home</a
+                >
+                <a
+                  class="nav-item nav-link{% if page.url == '/recipes/' %} active{% endif %}"
+                  href="{{site.baseurl}}/recipes/"
+                  >Recipes</a
+                >
+                <a
+                  class="nav-item nav-link{% if page.url == '/whats-for-dinner/' %} active{% endif %}"
+                  href="{{site.baseurl}}/whats-for-dinner/"
+                  >Ideas</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+  </body>
+</html>
