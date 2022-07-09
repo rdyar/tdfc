@@ -12,34 +12,40 @@ layout: default
 <div id="dessert"></div>
 <script src="{{site.baseurl}}/assets/js/recipes.js"></script>
 <script>
-  console.log("main_courses :>> ", main_courses);
+  function recipeItem(item) {
+    return `${item.title} ${
+      item.url
+        ? `<a target="_blank" href={{site.baseurl}}/${item.url}>↱</a>`
+        : ""
+    }`;
+  }
+
   // get random recipe from main_courses list in recipes.js
-  console.log("main.length", main.length);
   var randomRecipe =
     main_courses[Math.floor(Math.random() * main_courses.length)];
   console.log("randomRecipe :>> ", randomRecipe);
   // add p to dinner div with random recipe
-  let shuffled = main_courses
+  let shuffled = recipes
     .map((value) => ({ value, sort: Math.random() }))
     .sort((a, b) => a.sort - b.sort)
     .map(({ value }) => value);
-  document.getElementById(
-    "dinner"
-  ).innerHTML = `<p><a target="_blank" href={{site.baseurl}}/${shuffled[0].url}>${shuffled[0].title}</a>
-    <br><a target="_blank" href={{site.baseurl}}/${shuffled[1].url}>${shuffled[1].title}</a>
-    <br /><a target="_blank" href={{site.baseurl}}/${shuffled[2].url}>${shuffled[2].title}</a>
-    <br /><a target="_blank" href={{site.baseurl}}/${shuffled[3].url}>${shuffled[3].title}</a>
-    <br /><a target="_blank" href={{site.baseurl}}/${shuffled[4].url}>${shuffled[4].title}</a><br /></p>`;
+  document.getElementById("dinner").innerHTML = `<p>
+    ${recipeItem(shuffled[0])}<br>
+    ${recipeItem(shuffled[1])}<br>
+    ${recipeItem(shuffled[2])}<br>
+    ${recipeItem(shuffled[3])}<br>
+    ${recipeItem(shuffled[4])}
+  </p>`;
 
   let shuffledDesserts = desserts
     .map((value) => ({ value, sort: Math.random() }))
     .sort((a, b) => a.sort - b.sort)
     .map(({ value }) => value);
-  document.getElementById(
-    "dessert"
-  ).innerHTML = `<p><a target="_blank" href={{site.baseurl}}/${shuffledDesserts[0].url}>${shuffledDesserts[0].title}</a>
-    <br><a target="_blank" href={{site.baseurl}}/${shuffledDesserts[1].url}>${shuffledDesserts[1].title}</a>
-    <br /><a target="_blank" href={{site.baseurl}}/${shuffledDesserts[2].url}>${shuffledDesserts[2].title}</a>
-    <br /><a target="_blank" href={{site.baseurl}}/${shuffledDesserts[3].url}>${shuffledDesserts[3].title}</a>
-    <br /><a target="_blank" href={{site.baseurl}}/${shuffledDesserts[4].url}>${shuffledDesserts[4].title}</a><br /></p>`;
+  document.getElementById("dessert").innerHTML = `<p>
+    ${recipeItem(shuffledDesserts[0])}<br>
+    ${recipeItem(shuffledDesserts[1])}<br>
+    ${recipeItem(shuffledDesserts[2])}<br>
+    ${recipeItem(shuffledDesserts[3])}<br>
+    ${recipeItem(shuffledDesserts[4])}
+    </p>`;
 </script>
