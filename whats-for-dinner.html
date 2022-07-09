@@ -3,9 +3,11 @@ layout: default
 ---
 
 <h1 class="pad-top">What is for Dinner?</h1>
-<p>The Supper Computer suggests:</p>
+<p>The Supper Computer suggests the following meal:</p>
+<h2>Main Course:</h2>
 <div id="dinner"></div>
-
+<h2>Dessert:</h2>
+<div id="dessert"></div>
 <script src="{{site.baseurl}}/assets/js/recipes.js"></script>
 <script>
   console.log("main_courses :>> ", main_courses);
@@ -15,6 +17,27 @@ layout: default
     main_courses[Math.floor(Math.random() * main_courses.length)];
   console.log("randomRecipe :>> ", randomRecipe);
   // add p to dinner div with random recipe
-  document.getElementById("dinner").innerHTML =
-    "<p>" + randomRecipe.title + "</p>";
+  let shuffled = main_courses
+    .map((value) => ({ value, sort: Math.random() }))
+    .sort((a, b) => a.sort - b.sort)
+    .map(({ value }) => value);
+  document.getElementById(
+    "dinner"
+  ).innerHTML = `<p><a target="_blank" href={{site.baseurl}}/${shuffled[0].url}>${shuffled[0].title}</a>
+    <br><a target="_blank" href={{site.baseurl}}/${shuffled[1].url}>${shuffled[1].title}</a>
+    <br /><a target="_blank" href={{site.baseurl}}/${shuffled[2].url}>${shuffled[2].title}</a>
+    <br /><a target="_blank" href={{site.baseurl}}/${shuffled[3].url}>${shuffled[3].title}</a>
+    <br /><a target="_blank" href={{site.baseurl}}/${shuffled[4].url}>${shuffled[4].title}</a><br /></p>`;
+
+  let shuffledDesserts = desserts
+    .map((value) => ({ value, sort: Math.random() }))
+    .sort((a, b) => a.sort - b.sort)
+    .map(({ value }) => value);
+  document.getElementById(
+    "dessert"
+  ).innerHTML = `<p><a target="_blank" href={{site.baseurl}}/${shuffledDesserts[0].url}>${shuffledDesserts[0].title}</a>
+    <br><a target="_blank" href={{site.baseurl}}/${shuffledDesserts[1].url}>${shuffledDesserts[1].title}</a>
+    <br /><a target="_blank" href={{site.baseurl}}/${shuffledDesserts[2].url}>${shuffledDesserts[2].title}</a>
+    <br /><a target="_blank" href={{site.baseurl}}/${shuffledDesserts[3].url}>${shuffledDesserts[3].title}</a>
+    <br /><a target="_blank" href={{site.baseurl}}/${shuffledDesserts[4].url}>${shuffledDesserts[4].title}</a><br /></p>`;
 </script>
