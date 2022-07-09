@@ -12,6 +12,7 @@ layout: default
 <div id="dessert"></div>
 <script src="{{site.baseurl}}/assets/js/recipes.js"></script>
 <script>
+  const recipes = main_courses.concat(take_out);
   function recipeItem(item) {
     return `${item.title} ${
       item.url
