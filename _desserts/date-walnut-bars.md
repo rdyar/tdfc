@@ -14,12 +14,16 @@ coarse crumbs. Press firmly and evenly into pan. Bake in 350 degree oven for 20 
 
 Filling: 
 
-Combine:	2/3 cup brown sugar	2/3 cup granulated sugar  
-4 eggs	 2 teaspoon vanilla  
+Combine:  
+2/3 cup brown sugar  
+2/3 cup granulated sugar  
+4 eggs  
+2 teaspoon vanilla   
 
-Mix together 4 tablespoons flour (1/4 cup)  
-and add to	2 teaspoons baking powder  
-mixture above 1 teaspoon salt  
+Mix together and add to mixture above:  
+4 tablespoons flour (1/4 cup)  
+2 teaspoons baking powder  
+1 teaspoon salt  
 dash of nutmeg (optional)  
 
 Stir in:  
