@@ -1,8 +1,8 @@
 ---
 ---
 
-Family size brownie mix  
-8 oz cream cheese (softened) 
+Family size brownie mix (and whatever eggs/oil/water is needed to make up mix)  
+8 oz cream cheese (softened)  
 1 egg  
 1 tsp vanilla  
 
