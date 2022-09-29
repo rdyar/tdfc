@@ -2,12 +2,12 @@
 ---
 
 3/4 stick margarine  
-1/3 cup flour  
+⅓ cup flour  
 dash salt  
 1 teaspoon onion powder  
-1 1/2 cup milk  
+1½ cup milk  
 few drops of red pepper seasoning  
-1 1/2 cups grated cheeses (any combination of hard cheeses)  
+1½ cups grated cheeses (any combination of hard cheeses)  
 3 eggs, separated  
 
 Melt margarine in medium sauce pan. Stir in flour, salt, and onion powder, stirring constantly 
