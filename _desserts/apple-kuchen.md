@@ -3,7 +3,7 @@
 
 1/2 cup butter, softened  
 1 package yellow cake mix  
-'A cup flaked coconut  
+1 cup flaked coconut  
 1 can (20 oz) pie sliced apples, well drained (or 2 1/4 cups sliced pared apples)  
 1/2 cup sugar  
 1 teaspoon cinnamon  
