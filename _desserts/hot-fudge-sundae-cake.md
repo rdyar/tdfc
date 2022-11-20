@@ -1,6 +1,6 @@
 ---
 ---
----
+
 Spray inside of slow cooker with cooking spray.  
 
 In a bowl, stir together:  
