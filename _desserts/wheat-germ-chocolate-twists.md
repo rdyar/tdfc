@@ -7,7 +7,8 @@ Cookie:
 1/4 teaspoon salt  
 1 cup butter, softened (2 cubes)  
 1/4 cup sugar  
-1/2 teaspoon almond or vanilla extract  
+1/2 teaspoon almond or vanilla extract
+(this is really too dry; there appears to be a margin note to add milk "1T")
 
 
 Grind almonds, stop-and-go fashion, in electric blender until amonds are chopped fine.  
