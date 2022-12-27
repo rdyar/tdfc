@@ -8,10 +8,12 @@
 1 cup oil  
 2 teaspoon baking soda  
 1 teaspoon nutmeg  
-3 cups flour
-3 cups sugar 1 cup nuts, chopped 
-5 eggs 1 cup raisins 
-1 1/2 teaspoon salt 
+3 cups flour  
+3 cups sugar  
+1 cup nuts, chopped   
+5 eggs  
+1 cup raisins  
+1 1/2 teaspoon salt  
 
 Beat together ginger, cinnamon, oil, nutmeg, sugar, eggs and salt. Beat at low speed then high 
 for 2 minutes. 
