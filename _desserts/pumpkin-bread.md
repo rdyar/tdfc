@@ -2,18 +2,19 @@
 ---
 
 1 teaspoon ginger  
-1 16 oz can pumpkin  
 1 teaspoon cinnamon  
-2/3 cups water  
 1 cup oil  
-2 teaspoon baking soda  
 1 teaspoon nutmeg  
-3 cups flour  
 3 cups sugar  
-1 cup nuts, chopped   
 5 eggs  
-1 cup raisins  
 1 1/2 teaspoon salt  
+
+1 16 oz can pumpkin  
+2/3 cups water  
+2 teaspoon baking soda  
+3 cups flour  
+1 cup nuts, chopped   
+1 cup raisins  
 
 Beat together ginger, cinnamon, oil, nutmeg, sugar, eggs and salt. Beat at low speed then high 
 for 2 minutes. 
@@ -27,4 +28,5 @@ or cover with foil after removing from oven. This will steam the bread. When coo
 freeze.
 
 
-2019 Update:  ok to double recipe, use 9 eggs and 29 oz can of pumpkin
+2019 Update:  ok to double recipe, use 9 eggs and 29 oz can of pumpkin  
+2022 - recipe made 6 small loaf pans, 7 cupcakes, and 1 short large loaf pan (should have tried for 8 small loaf pans)  
