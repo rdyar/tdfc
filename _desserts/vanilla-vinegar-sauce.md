@@ -5,13 +5,13 @@
 
 Mix in saucepan: 
 
-3 tablespoons flour*  
-3 tablespoons sugar*  
+3 tablespoons flour* (see 2019 update below)  
+3 tablespoons sugar* (see 2019 update below)  
 dash of salt  
 
 Add enough water to make a thin paste. 
 
-Add 2 cups* boiling water gradually, stirring constantly. Cook over low heat for 10 minutes. 
+Add 2 cups* (see 2019 update below) boiling water gradually, stirring constantly. Cook over low heat for 10 minutes. 
 Remove from heat. 
 
 Add:  
