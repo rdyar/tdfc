@@ -1,16 +1,13 @@
 ---
 ---
 
-In a large bowl combine: 
-
+In a large bowl combine and mix well: 
 1 cup sugar  
-(Mix well)  
 1 cup oil  
 1 cup molasses  
 1 cup boiling water  
 
 Stir together
-
 2 1/2 cups flour  
 2 teaspoon baking soda   
 1/2 teaspoon ginger  
