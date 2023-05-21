@@ -3,7 +3,7 @@
 
 1 unbaked 9" pie crust  
 3 eggs, slightly beaten  
-% cup sugar  
+1/2 cup sugar  
 1/8 teaspoon salt  
 1 tablespoon flour  
 1 cup white Karo syrup (or 1 cup sugar + 1/4 cup water)  
