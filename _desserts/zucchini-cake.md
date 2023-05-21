@@ -4,8 +4,8 @@
 3 cups grated zucchini  
 3 cups sugar  
 1 cup walnuts  
-1 'A cups corn oil??  
-1 'A teaspoon cinnamon??  
+1 1/2 cups corn oil  
+1 1/2 teaspoon cinnamon  
 4 eggs  
 3 cups flour  
 2 teaspoons baking powder  
