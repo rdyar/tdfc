@@ -3,7 +3,7 @@
 
 24 double graham crackers (double = 4 pieces)  
 2 cubes margarine  
-% cup sugar  
+1/2 cup sugar  
 1 cup chopped nuts 
 
 Line large pan with foil. 
