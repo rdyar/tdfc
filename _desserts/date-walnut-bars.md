@@ -4,7 +4,7 @@
 Crust: 
 
 3 cups unsifted flour  
-1/2 cups sugar   
+1/2 cup sugar   
 1 cup butter (2 sticks), softened  
 1/2 teaspoon salt  
 
