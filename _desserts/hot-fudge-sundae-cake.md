@@ -15,7 +15,7 @@ Add:
   3 T oil  
   1 1/2 teaspoon vanilla  
   
-Stir together unitl smooth (will be thick).  Spread evely in cooker.  
+Stir together unitl smooth (will be thick).  Spread evenly in cooker.  
 
 In a small bowl, mix together:  
   1 cup + 2 T brown sugar  
