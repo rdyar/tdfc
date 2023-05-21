@@ -9,7 +9,7 @@ Combine and cool:
 
 Mix in order given:
 
-3/4 cup shortening (or 6 Tablesppons "lighter Bake" or 1/2 cup oil and 1/4 cup shortening)  
+3/4 cup shortening (or 6 Tablespoons "lighter Bake" or 1/2 cup oil and 1/4 cup shortening)  
 1 cup sugar  
 
 2 eggs  
