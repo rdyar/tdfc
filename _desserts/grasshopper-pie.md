@@ -10,7 +10,7 @@
 1/2 pint cream, whipped  
 
 Roll cookies in plastic bag to make very fine crumbs. Melt butter, stir in cookies and press into 9 
-inch pie plate. Chill. Melt marshmallows in milk in top of double boiler. Let cool On refrigerator 
+inch pie plate. Chill. Melt marshmallows in milk in top of double boiler. Let cool (in refrigerator 
 or over ice) until mixture mounds when dropped from spoon. Stir in the two cremes. Fold in 
 whipped cream. Pour into pie shell. Freeze. Serve frozen. 
 
