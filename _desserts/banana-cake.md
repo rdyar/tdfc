@@ -20,9 +20,12 @@ thoroughly and frost.
 
 **FROSTING** 
 
-1 stick margarine 6 tablespoons milk  
-1 box powdered sugar 4 tablespoons cocoa  
-1 teaspoon vanilla 'A cup nuts, chopped   
+1 stick margarine  
+6 tablespoons milk  
+1 box powdered sugar  
+4 tablespoons cocoa  
+1 teaspoon vanilla  
+1/2 cup nuts, chopped   
 
 Heat margarine, milk and cocoa in microwave, stirring until margarine is melted. Add remaining 
 ingredients.
