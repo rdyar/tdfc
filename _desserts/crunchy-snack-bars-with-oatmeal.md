@@ -16,7 +16,7 @@ Keep warm.
 In a large bowl, mix:	
 
 3 cups flour  
-1 3/4 cups brown sugar	 
+1 3/4 cups brown sugar  
 1/2 teaspoon baking soda  
 3/4 teaspoon salt  
 
