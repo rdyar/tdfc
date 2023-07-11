@@ -22,7 +22,7 @@ In a small bowl, mix together:
   1/4 cup + 2 T cocoa powder  
 Stir in 2 1/4 cups hot water and mix until smooth. Pour over batter in cooker which will make a sauce in the bottom of the cooker.  
 
-Cover and cook on high 2 1/2 hours.  Turn off cooker and lave partially covered for 30-40 minutes to cool slightly.  Best when served warm.  
+Cover and cook on high 2 1/2 hours.  Turn off cooker and leave partially covered for 30-40 minutes to cool slightly.  Best when served warm.  
   
 Serves 6  
 From Betty Crocker cookbook  
