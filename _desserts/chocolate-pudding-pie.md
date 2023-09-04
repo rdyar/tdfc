@@ -14,4 +14,6 @@ Combine cocoa, sugar, flour & salt in a heavy saucepan.
 Add egg, milk & vanilla.  Cook over low heat, stirring frequently for about 10 min. or until mixture thickens.  
 Remove from heat & stir in butter.  Let cool a bit before pouring into pie shell.  
 
-Top with whipped cream.
+Top with whipped cream.  
+
+Note from mom 3/2020: I think this is the choc. pudding I have been using - not the one in the cook book (chocolate pudding).
