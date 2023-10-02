@@ -16,4 +16,7 @@ or until apples are tender. Serve warm, plain or with ice cream.
 
 Mom adds more apples to the pan to fill in all the spaces and more juice (almost double).
 
+If using 9x13 pan, use 2 packages of rolls. And more apples.  
+10/2023 - 6 apples was plenty to cover the bottom of the pan, 1 package of rolls only covered 1/2 the pan. 
+
 *renamed from spicey apple twists to apple twists*
