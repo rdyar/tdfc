@@ -14,7 +14,7 @@ dash salt
 
 In medium mixer bowl with electric mixer at medium speed, combine first 3 ingredients. Divide 
 dough and shape into 32 balls. Place on ungreased cookie sheet. Make deep indentation with 
-floured knuckle into each cookie and shape with fingers into bowl shape. Place in freezer for 1015 
+floured knuckle into each cookie and shape with fingers into bowl shape. Place in freezer for 10-15 
 minutes or in refrigerator for 1 hour to firm.
 
 Preheat oven to 350 degrees. 
