@@ -9,7 +9,7 @@ Trim off rind and as much fat from ham as possible. Place ham on a rack in bakin
 water to cover bottom of pan. After baking ham at 325 degrees for 1 hour, remove ham and trim 
 any further fat and coat with glaze (below). Poke several cloves in ham and attach pineapple 
 slices with toothpicks. Return to oven to continue cooking, 20 minutes per pound. Add more 
-water to bottom of pan if necessary. If pineapple starts to bum, cover top with foil. 
+water to bottom of pan if necessary. If pineapple starts to burn, cover top with foil. 
 
 Use leftovers in Ham & Beans, Ham & Potato casserole, and sandwiches. 
 
