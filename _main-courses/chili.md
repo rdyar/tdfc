@@ -4,7 +4,7 @@
 ground beef to taste (about 1 pound), browned and fat/grease removed  
 1 can chili beans (15oz)  
 1 can kidney beans (8oz)  
-1 can stewed tomatoes (Boz)  
+1 can stewed tomatoes (8oz)  
 1 can tomato sauce (8oz)  
 water, enough to thin mixture  
 pinch of sugar 
