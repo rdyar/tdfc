@@ -19,7 +19,7 @@ Cream together butter and sugar. Add remaining ingredients. Pour half of batter 
 cake pan. Sprinkle half of filling over batter. Pour in remaining batter and sprinkle top with the 
 rest of the filling. 
 
-Bake at 350 degrees for 40 minutes.
+Bake at 350 degrees for 40 minutes.  Don't over bake.  Makes 4 small loaf pans.  
 
 
 
