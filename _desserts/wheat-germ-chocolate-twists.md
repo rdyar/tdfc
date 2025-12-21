@@ -15,6 +15,7 @@ Grind almonds, stop-and-go fashion, in electric blender until almonds are choppe
 Combine with flour, wheat germ, and salt.  
 
 *IMPORTANT*
+
 Beat together butter, sugar, and extract before combining with the other dry ingredients.
 
 Blend dry ingredients.  Here is where you may need to add milk to get it to the proper consistency.
@@ -23,6 +24,7 @@ Roll dough into 1/2 inch thick ropes. Cut into 3-inch lengths.  Cross two length
 Repeat with remaining lengths.  
 
 *ALTERNATE method to save time*
+
 Make little balls of dough, then flatten into traditional round cookies.
 
 Bake in 350 degree oven 15 to 17 minutes or until lightly browned.  Remove from baking sheet.  Cool on rack.  
