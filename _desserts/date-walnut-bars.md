@@ -31,4 +31,6 @@ Stir in:
 2 8oz packages pitted, chopped dates  
 
 Pour mixture over baked crust. Bake at 350 for 20-30 minutes or until firm around the edges. Cool in 
-pan on wire rack. Cut when cool.
+pan on wire rack. Cut when cool.  
+
+NOTE: a 9x13 pay is too small, bars will come out very thick.  Two 9x9 pans will be a little too big, two 8x8 will be a little too small, but could work.
