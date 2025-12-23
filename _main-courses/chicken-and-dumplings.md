@@ -14,7 +14,7 @@ extra and save for another meal. Return chicken to broth. Bring to a boil.
 Make Bisquick recipe for Dumplings: 
 
 1 cup Bisquick  
-1/3 cup milk 
+1/3 cup milk (may need more liquid - the dumpling should be a little loose.  Don't over mix.)   
 
 Mix gently with a fork. Drop large spoonfuls on top of boiling broth. Cover and cook on low for 
 15 minutes. No peeking! Remove dumplings, remove chicken to serving platter. If necessary, 
