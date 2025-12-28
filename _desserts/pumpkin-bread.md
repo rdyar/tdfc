@@ -30,3 +30,5 @@ freeze.
 
 2019 Update:  ok to double recipe, use 9 eggs and 29 oz can of pumpkin  
 2022 - recipe made 6 small loaf pans, 7 cupcakes, and 1 short large loaf pan (should have tried for 8 small loaf pans)  
+2025 - recipe made 8 small loaf pans plus 1 large loaf pan  
+
