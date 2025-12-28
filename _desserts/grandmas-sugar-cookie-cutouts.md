@@ -25,4 +25,5 @@ Mix ingredients together. Color with food coloring. Ready to go.
 
 
 2019 update cookies: double the recipe to make about 4 dozen cutout cookies.  
-2019 update frosting: 1/3 cup milk (not 2/3 cup)
+2019 update frosting: 1/3 cup milk (not 2/3 cup)  
+2025 update - made icing - 1 cup powdered sugar + 1-2 Tbsp Milk and 1/4 teaspoon vanilla (much thinner than frosting, but set up ok, some color bleeding though)  
