@@ -54,7 +54,7 @@ Top Sirloin steak: Mom's choice to use to marinate and barbecue.
 ---
 
 <div style="margin-bottom: 2rem; position: relative; z-index: 1;">
-  <input type="text" id="recipe-search" placeholder="Search recipes by name, ingredient, or keyword..." style="width: 100%; padding: 0.75rem; font-size: 1rem; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; position: relative; z-index: 10; pointer-events: auto;" autocomplete="off">
+  <input type="search" id="recipe-search" placeholder="Search recipes by name, ingredient, or keyword..." style="max-width: 400px; padding: 0.75rem; font-size: 1rem; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; position: relative; z-index: 10; pointer-events: auto;" autocomplete="off">
 </div>
 <div id="no-results-message" style="display: none; margin-bottom: 2rem; padding: 1rem; text-align: center; color: #666; font-style: italic;">
   No recipes found matching your search.
@@ -185,10 +185,7 @@ Top Sirloin steak: Mom's choice to use to marinate and barbecue.
       return;
     }
     
-    // Ensure input is not disabled
-    searchInput.disabled = false;
-    searchInput.readOnly = false;
-    
+      
     // Add event listener
     searchInput.addEventListener('input', function(e) {
       filterRecipes(e.target.value);
@@ -230,8 +227,163 @@ Top Sirloin steak: Mom's choice to use to marinate and barbecue.
 })();
 </script>
 
+<!-- Recent Google Form Comments -->
+<div class="comments pad-top">
+  <h3>Recent Comments:</h3>
+  <hr>
+  <div id="recent-google-comments"></div>
+</div>
+
+<script>
+(function() {
+  const SHEET_URL =
+    "https://docs.google.com/spreadsheets/d/e/2PACX-1vQFiZsdiSfpweFujBfp-H4TD_-6SVdU4lkuUoRBYnt3UsDOr_xFZc0RT5AqNk_FIdBRkkN6JCIYWJPb/pub?gid=1274664430&single=true&output=csv";
+  const MAX_COMMENTS = 35; // Show most recent 15 comments
+  
+  // Format timestamp from "1/2/2026 13:45:12" to "1/2/2026 1:45 PM"
+  function formatTimestamp(timeString) {
+    try {
+      // Parse the date string (format: "M/D/YYYY HH:MM:SS")
+      const [datePart, timePart] = timeString.split(' ');
+      if (!datePart || !timePart) return timeString;
+      
+      const [month, day, year] = datePart.split('/');
+      const [hours, minutes] = timePart.split(':');
+      
+      const hour24 = parseInt(hours, 10);
+      const hour12 = hour24 === 0 ? 12 : hour24 > 12 ? hour24 - 12 : hour24;
+      const ampm = hour24 >= 12 ? 'PM' : 'AM';
+      
+      return `${month}/${day}/${year} ${hour12}:${minutes} ${ampm}`;
+    } catch (e) {
+      // If parsing fails, return original string
+      return timeString;
+    }
+  }
+  
+  // Parse timestamp for sorting (convert to sortable format)
+  function parseTimestampForSort(timeString) {
+    try {
+      const [datePart, timePart] = timeString.split(' ');
+      if (!datePart || !timePart) return 0;
+      
+      const [month, day, year] = datePart.split('/').map(Number);
+      const [hours, minutes, seconds] = timePart.split(':').map(Number);
+      
+      // Create a sortable timestamp (milliseconds since epoch)
+      const date = new Date(year, month - 1, day, hours, minutes, seconds || 0);
+      return date.getTime();
+    } catch (e) {
+      return 0;
+    }
+  }
+  
+  // Simple CSV parser that handles quoted fields
+  function parseCSVRow(row) {
+    const result = [];
+    let current = '';
+    let inQuotes = false;
+    
+    for (let i = 0; i < row.length; i++) {
+      const char = row[i];
+      const nextChar = row[i + 1];
+      
+      if (char === '"') {
+        if (inQuotes && nextChar === '"') {
+          // Escaped quote
+          current += '"';
+          i++; // Skip next quote
+        } else {
+          // Toggle quote state
+          inQuotes = !inQuotes;
+        }
+      } else if (char === ',' && !inQuotes) {
+        // Field separator
+        result.push(current.trim());
+        current = '';
+      } else {
+        current += char;
+      }
+    }
+    
+    // Add last field
+    result.push(current.trim());
+    return result;
+  }
+  
+  // Get recipe name from path (e.g., "/desserts/chocolate-cake/" -> "Chocolate Cake")
+  function getRecipeNameFromPath(path) {
+    if (!path) return '';
+    // Remove leading/trailing slashes and split
+    const parts = path.replace(/^\/|\/$/g, '').split('/');
+    if (parts.length < 2) return '';
+    // Get the last part (recipe slug) and format it
+    const slug = parts[parts.length - 1];
+    return slug
+      .split('-')
+      .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+      .join(' ');
+  }
+  
+  fetch(SHEET_URL)
+    .then(r => r.text())
+    .then(csv => {
+      const rows = csv.split("\n").slice(1).filter(row => row.trim());
+      const allComments = rows
+        .map(parseCSVRow)
+        .filter(cols => cols.length >= 4 && cols[0] && cols[1] && cols[2]) // Ensure we have time, name, and comment
+        .map(cols => ({
+          time: cols[0],
+          name: cols[1],
+          comment: cols[2],
+          path: cols[3] || '',
+          sortTime: parseTimestampForSort(cols[0])
+        }));
+      
+      // Sort by timestamp (most recent first) and take top N
+      const recentComments = allComments
+        .sort((a, b) => b.sortTime - a.sortTime)
+        .slice(0, MAX_COMMENTS);
+      
+      const container = document.getElementById("recent-google-comments");
+      if (!container) return;
+      
+      if (!recentComments.length) {
+        container.innerHTML = "<p>No comments yet.</p>";
+        return;
+      }
+      
+      container.innerHTML = recentComments
+        .map(({ time, name, comment, path }) => {
+          const recipeName = getRecipeNameFromPath(path);
+          const recipeLink = path ? `<a href="{{site.baseurl}}${path}">${recipeName}</a>` : '';
+          return `
+            <article class="comment">
+              <div class="comment__content-wrapper">
+                <h4>${name}</h4>
+                ${recipeLink ? `<small>${recipeLink}</small><br>` : ''}
+                ${comment}
+                <small> - ${formatTimestamp(time)}</small>
+              </div>
+              <hr>
+            </article>
+          `;
+        })
+        .join("");
+    })
+    .catch(error => {
+      console.error('Error fetching recent comments:', error);
+      const container = document.getElementById("recent-google-comments");
+      if (container) {
+        container.innerHTML = "<p>Error loading recent comments. Please try again later.</p>";
+      }
+    });
+})();
+</script>
+
+<!-- Old Commenting System (no longer works) -->
  <div class="comments pad-top">
-          <h3>What people are saying:</h3><hr>
+          <h3>Old Comments:</h3><hr>
           {% assign comments = site.data.comments | sort %}
           {% for comment in comments %}
 

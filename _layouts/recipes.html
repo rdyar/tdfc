@@ -15,7 +15,7 @@
 >
   💬 Leave a comment
 </a>
-
+<h3 class="pad-top">Comments:</h3><hr>
 {% include post_comments.html %}
 <div id="comments"></div>
 
@@ -28,6 +28,27 @@
   const PATH = "{{ page.url }}";
   const SHEET_URL =
     "https://docs.google.com/spreadsheets/d/e/2PACX-1vQFiZsdiSfpweFujBfp-H4TD_-6SVdU4lkuUoRBYnt3UsDOr_xFZc0RT5AqNk_FIdBRkkN6JCIYWJPb/pub?gid=1274664430&single=true&output=csv";
+  
+  // Format timestamp from "1/2/2026 13:45:12" to "1/2/2026 1:45 PM"
+  function formatTimestamp(timeString) {
+    try {
+      // Parse the date string (format: "M/D/YYYY HH:MM:SS")
+      const [datePart, timePart] = timeString.split(' ');
+      if (!datePart || !timePart) return timeString;
+      
+      const [month, day, year] = datePart.split('/');
+      const [hours, minutes] = timePart.split(':');
+      
+      const hour24 = parseInt(hours, 10);
+      const hour12 = hour24 === 0 ? 12 : hour24 > 12 ? hour24 - 12 : hour24;
+      const ampm = hour24 >= 12 ? 'PM' : 'AM';
+      
+      return `${month}/${day}/${year} ${hour12}:${minutes} ${ampm}`;
+    } catch (e) {
+      // If parsing fails, return original string
+      return timeString;
+    }
+  }
   
   // Simple CSV parser that handles quoted fields
   function parseCSVRow(row) {
@@ -70,17 +91,15 @@
         .map(parseCSVRow)
         .filter(cols => cols.length >= 4 && cols[3] === PATH);
       
-      console.log('comments', comments);
       
       if (!comments.length) {
-        document.getElementById("comments").innerHTML =
-          "<p>No comments yet.</p>";
+       
         return;
       }
   
       document.getElementById("comments").innerHTML =
         comments.map(([time, name, comment, path]) =>
-          `<p><strong>${name}</strong><br>${comment} <small>- ${time}</small></p>`
+          `<p><strong>${name}</strong><small> - ${formatTimestamp(time)}</small><br>${comment} </p>`
         ).join("");
     })
     .catch(error => {
