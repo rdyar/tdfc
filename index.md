@@ -56,6 +56,9 @@ Top Sirloin steak: Mom's choice to use to marinate and barbecue.
 <div style="margin-bottom: 2rem; position: relative; z-index: 1;">
   <input type="text" id="recipe-search" placeholder="Search recipes by name, ingredient, or keyword..." style="width: 100%; padding: 0.75rem; font-size: 1rem; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; position: relative; z-index: 10; pointer-events: auto;" autocomplete="off">
 </div>
+<div id="no-results-message" style="display: none; margin-bottom: 2rem; padding: 1rem; text-align: center; color: #666; font-style: italic;">
+  No recipes found matching your search.
+</div>
 
 <div id="odds-and-ends-section">
 <h2>Odds and Ends</h2>
@@ -115,6 +118,21 @@ Top Sirloin steak: Mom's choice to use to marinate and barbecue.
         recipesByCategory[recipe.category].push(recipe);
       }
     });
+
+    // Check if there are any results at all
+    const totalRecipes = Object.values(recipesByCategory).reduce((sum, arr) => sum + arr.length, 0);
+    const noResultsMessage = document.getElementById('no-results-message');
+    
+    // Show/hide no results message
+    if (searchQuery && totalRecipes === 0) {
+      if (noResultsMessage) {
+        noResultsMessage.style.display = 'block';
+      }
+    } else {
+      if (noResultsMessage) {
+        noResultsMessage.style.display = 'none';
+      }
+    }
 
     // Render each category
     Object.keys(categoryMap).forEach(category => {
