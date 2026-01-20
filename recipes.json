@@ -1,0 +1,46 @@
+---
+layout: null
+---
+[
+{% assign first = true %}
+{% for recipe in site.odds-and-ends %}
+  {% unless first %},{% endunless %}{% assign first = false %}
+  {
+    "title": {{ recipe.title | jsonify }},
+    "content": {{ recipe.content | strip_html | jsonify }},
+    "category": "odds-and-ends",
+    "url": "{{ site.baseurl }}{{ recipe.url }}",
+    "needsReview": {% if recipe.s %}true{% else %}false{% endif %}
+  }
+{% endfor %}
+{% for recipe in site.soup-and-salad %}
+  {% unless first %},{% endunless %}{% assign first = false %}
+  {
+    "title": {{ recipe.title | jsonify }},
+    "content": {{ recipe.content | strip_html | jsonify }},
+    "category": "soup-and-salad",
+    "url": "{{ site.baseurl }}{{ recipe.url }}",
+    "needsReview": {% if recipe.s %}true{% else %}false{% endif %}
+  }
+{% endfor %}
+{% for recipe in site.main-courses %}
+  {% unless first %},{% endunless %}{% assign first = false %}
+  {
+    "title": {{ recipe.title | jsonify }},
+    "content": {{ recipe.content | strip_html | jsonify }},
+    "category": "main-courses",
+    "url": "{{ site.baseurl }}{{ recipe.url }}",
+    "needsReview": {% if recipe.s %}true{% else %}false{% endif %}
+  }
+{% endfor %}
+{% for recipe in site.desserts %}
+  {% unless first %},{% endunless %}{% assign first = false %}
+  {
+    "title": {{ recipe.title | jsonify }},
+    "content": {{ recipe.content | strip_html | jsonify }},
+    "category": "desserts",
+    "url": "{{ site.baseurl }}{{ recipe.url }}",
+    "needsReview": {% if recipe.s %}true{% else %}false{% endif %}
+  }
+{% endfor %}
+]

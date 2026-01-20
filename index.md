@@ -49,33 +49,169 @@ Top Sirloin steak: Mom's choice to use to marinate and barbecue.
 
 3 Tablespoons cocoa + 1 Tablespoon oil = 1 square baking chocolate
 
-## Odds and Ends
+## Search Recipes
 
 ---
 
-{% for recipe in site.odds-and-ends %}
-[{{recipe.title}}]({{site.baseurl}}{{ recipe.url }}) {% if recipe.s %}<span style="color:red;"> Needs Review!</span>{% endif %} {% endfor %}
+<div style="margin-bottom: 2rem; position: relative; z-index: 1;">
+  <input type="text" id="recipe-search" placeholder="Search recipes by name, ingredient, or keyword..." style="width: 100%; padding: 0.75rem; font-size: 1rem; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; position: relative; z-index: 10; pointer-events: auto;" autocomplete="off">
+</div>
 
-## Soups and Salads
+<div id="odds-and-ends-section">
+<h2>Odds and Ends</h2>
 
----
 
-{% for recipe in site.soup-and-salad %}
-[{{recipe.title}}]({{site.baseurl}}{{ recipe.url }}) {% if recipe.s %}<span style="color:red;"> Needs Review!</span>{% endif %} {% endfor %}
+<div id="odds-and-ends-recipes"></div>
+</div>
 
-## Main Courses / Vegetables
+<div id="soup-and-salad-section">
+<h2>Soups and Salads</h2>
 
----
 
-{% for recipe in site.main-courses %}
-[{{recipe.title}}]({{site.baseurl}}{{ recipe.url }}) {% if recipe.s %}<span style="color:red;"> Needs Review!</span>{% endif %} {% endfor %}
+<div id="soup-and-salad-recipes"></div>
+</div>
 
-## Desserts
+<div id="main-courses-section">
+<h2>Main Courses / Vegetables</h2>
 
----
 
-{% for recipe in site.desserts %}
-[{{recipe.title}}]({{site.baseurl}}{{ recipe.url }}) {% if recipe.s %}<span style="color:red;"> Needs Review!</span>{% endif %} {% endfor %}
+<div id="main-courses-recipes"></div>
+</div>
+
+<div id="desserts-section">
+<h2>Desserts</h2>
+
+
+<div id="desserts-recipes"></div>
+</div>
+
+<script>
+(function() {
+  let allRecipes = [];
+  const categoryMap = {
+    'odds-and-ends': 'odds-and-ends-recipes',
+    'soup-and-salad': 'soup-and-salad-recipes',
+    'main-courses': 'main-courses-recipes',
+    'desserts': 'desserts-recipes'
+  };
+  const sectionMap = {
+    'odds-and-ends': 'odds-and-ends-section',
+    'soup-and-salad': 'soup-and-salad-section',
+    'main-courses': 'main-courses-section',
+    'desserts': 'desserts-section'
+  };
+
+  function renderRecipes(recipes, searchQuery = '') {
+    // Group recipes by category
+    const recipesByCategory = {
+      'odds-and-ends': [],
+      'soup-and-salad': [],
+      'main-courses': [],
+      'desserts': []
+    };
+
+    recipes.forEach(recipe => {
+      if (recipesByCategory[recipe.category]) {
+        recipesByCategory[recipe.category].push(recipe);
+      }
+    });
+
+    // Render each category
+    Object.keys(categoryMap).forEach(category => {
+      const container = document.getElementById(categoryMap[category]);
+      const section = document.getElementById(sectionMap[category]);
+      const categoryRecipes = recipesByCategory[category] || [];
+      
+      if (categoryRecipes.length === 0) {
+        container.innerHTML = '';
+        if (section) {
+          section.style.display = 'none';
+        }
+        return;
+      }
+
+      // Show the section if it was hidden
+      if (section) {
+        section.style.display = '';
+      }
+
+      let html = categoryRecipes.map(recipe => {
+        const reviewBadge = recipe.needsReview ? ' <span style="color:red;"> Needs Review!</span>' : '';
+        return `<a href="${recipe.url}">${recipe.title}</a>${reviewBadge}`;
+      }).join('<br>');
+
+      container.innerHTML = html;
+    });
+  }
+
+  function filterRecipes(searchQuery) {
+    if (!searchQuery.trim()) {
+      renderRecipes(allRecipes);
+      return;
+    }
+
+    const query = searchQuery.toLowerCase();
+    const filtered = allRecipes.filter(recipe => {
+      const titleMatch = recipe.title.toLowerCase().includes(query);
+      const contentMatch = recipe.content.toLowerCase().includes(query);
+      return titleMatch || contentMatch;
+    });
+
+    renderRecipes(filtered, searchQuery);
+  }
+
+  // Set up search input listener
+  function setupSearchInput() {
+    const searchInput = document.getElementById('recipe-search');
+    if (!searchInput) {
+      console.error('Search input not found');
+      return;
+    }
+    
+    // Ensure input is not disabled
+    searchInput.disabled = false;
+    searchInput.readOnly = false;
+    
+    // Add event listener
+    searchInput.addEventListener('input', function(e) {
+      filterRecipes(e.target.value);
+    });
+    
+    // Also try keyup as fallback
+    searchInput.addEventListener('keyup', function(e) {
+      filterRecipes(e.target.value);
+    });
+    
+    console.log('Search input setup complete');
+  }
+
+  // Wait for DOM to be ready
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', setupSearchInput);
+  } else {
+    // DOM already ready, but wait a tick to ensure everything is rendered
+    setTimeout(setupSearchInput, 0);
+  }
+
+  // Load recipes from JSON
+  fetch('{{site.baseurl}}/recipes.json')
+    .then(response => response.json())
+    .then(recipes => {
+      allRecipes = recipes;
+      renderRecipes(recipes);
+    })
+    .catch(error => {
+      console.error('Error loading recipes:', error);
+      // Fallback: show error message
+      Object.values(categoryMap).forEach(id => {
+        const container = document.getElementById(id);
+        if (container) {
+          container.innerHTML = '<p style="color:red;">Error loading recipes. Please refresh the page.</p>';
+        }
+      });
+    });
+})();
+</script>
 
  <div class="comments pad-top">
           <h3>What people are saying:</h3><hr>
