@@ -3,15 +3,96 @@
 <section class="section-main">
 <div class="container">
 <h1 class="pad-top">{{page.title}}</h1>
-  {% if page.s %}<span style="color:red;">This recipe needs review! There were problems with the OCR scan.</span>{% endif %}
 <hr>
   {% if page.image %}
 <img src="{{site.baseurl}}/recipe-images/{{page.image}}" class="img-responsive" alt="{{page.title}}">
   {% endif %}
   {{ content }}
-<a class="btn btn-secondary btn-sm" href="https://github.com/rdyar/tdfc/tree/gh-pages/{{ page.relative_path }}">Edit this recipe on GitHub</a>
+<a class="btn btn-secondary btn-sm" href="https://github.com/rdyar/tdfc/tree/gh-pages/{{ page.relative_path }}">Edit this recipe on GitHub</a> <br />
+<a class="btn btn-secondary btn-sm"
+  id="comment-link"
+  target="_blank"
+>
+  💬 Leave a comment
+</a>
+
 {% include post_comments.html %}
+<div id="comments"></div>
+
 </div>
 </section>
 </main>
 {% include footer.html %}
+
+<script>
+  const PATH = "{{ page.url }}";
+  const SHEET_URL =
+    "https://docs.google.com/spreadsheets/d/e/2PACX-1vQFiZsdiSfpweFujBfp-H4TD_-6SVdU4lkuUoRBYnt3UsDOr_xFZc0RT5AqNk_FIdBRkkN6JCIYWJPb/pub?gid=1274664430&single=true&output=csv";
+  
+  // Simple CSV parser that handles quoted fields
+  function parseCSVRow(row) {
+    const result = [];
+    let current = '';
+    let inQuotes = false;
+    
+    for (let i = 0; i < row.length; i++) {
+      const char = row[i];
+      const nextChar = row[i + 1];
+      
+      if (char === '"') {
+        if (inQuotes && nextChar === '"') {
+          // Escaped quote
+          current += '"';
+          i++; // Skip next quote
+        } else {
+          // Toggle quote state
+          inQuotes = !inQuotes;
+        }
+      } else if (char === ',' && !inQuotes) {
+        // Field separator
+        result.push(current.trim());
+        current = '';
+      } else {
+        current += char;
+      }
+    }
+    
+    // Add last field
+    result.push(current.trim());
+    return result;
+  }
+  
+  fetch(SHEET_URL)
+    .then(r => r.text())
+    .then(csv => {
+      const rows = csv.split("\n").slice(1).filter(row => row.trim());
+      const comments = rows
+        .map(parseCSVRow)
+        .filter(cols => cols.length >= 4 && cols[3] === PATH);
+      
+      console.log('comments', comments);
+      
+      if (!comments.length) {
+        document.getElementById("comments").innerHTML =
+          "<p>No comments yet.</p>";
+        return;
+      }
+  
+      document.getElementById("comments").innerHTML =
+        comments.map(([time, name, comment, path]) =>
+          `<p><strong>${name}</strong><br>${comment} <small>- ${time}</small></p>`
+        ).join("");
+    })
+    .catch(error => {
+      console.error('Error fetching comments:', error);
+      document.getElementById("comments").innerHTML =
+        "<p>Error loading comments. Please try again later.</p>";
+    });
+  </script>
+<script>
+  const formBase =
+    "https://docs.google.com/forms/d/e/1FAIpQLSdu9lc91upNA37X3fOS33vk6v35XuTkVBhNU0DMyVv-orJGjQ/viewform?usp=pp_url&entry.1168403230=";
+
+  document.getElementById("comment-link").href =
+    formBase + encodeURIComponent("{{ page.url }}");
+</script>
