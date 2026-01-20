@@ -9,8 +9,7 @@ layout: null
     "title": {{ recipe.title | jsonify }},
     "content": {{ recipe.content | strip_html | jsonify }},
     "category": "odds-and-ends",
-    "url": "{{ site.baseurl }}{{ recipe.url }}",
-    "needsReview": {% if recipe.s %}true{% else %}false{% endif %}
+    "url": "{{ site.baseurl }}{{ recipe.url }}"
   }
 {% endfor %}
 {% for recipe in site.soup-and-salad %}
@@ -19,8 +18,7 @@ layout: null
     "title": {{ recipe.title | jsonify }},
     "content": {{ recipe.content | strip_html | jsonify }},
     "category": "soup-and-salad",
-    "url": "{{ site.baseurl }}{{ recipe.url }}",
-    "needsReview": {% if recipe.s %}true{% else %}false{% endif %}
+    "url": "{{ site.baseurl }}{{ recipe.url }}"
   }
 {% endfor %}
 {% for recipe in site.main-courses %}
@@ -29,8 +27,7 @@ layout: null
     "title": {{ recipe.title | jsonify }},
     "content": {{ recipe.content | strip_html | jsonify }},
     "category": "main-courses",
-    "url": "{{ site.baseurl }}{{ recipe.url }}",
-    "needsReview": {% if recipe.s %}true{% else %}false{% endif %}
+    "url": "{{ site.baseurl }}{{ recipe.url }}"
   }
 {% endfor %}
 {% for recipe in site.desserts %}
@@ -39,8 +36,7 @@ layout: null
     "title": {{ recipe.title | jsonify }},
     "content": {{ recipe.content | strip_html | jsonify }},
     "category": "desserts",
-    "url": "{{ site.baseurl }}{{ recipe.url }}",
-    "needsReview": {% if recipe.s %}true{% else %}false{% endif %}
+    "url": "{{ site.baseurl }}{{ recipe.url }}"
   }
 {% endfor %}
 ]

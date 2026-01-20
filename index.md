@@ -136,8 +136,7 @@ Top Sirloin steak: Mom's choice to use to marinate and barbecue.
       }
 
       let html = categoryRecipes.map(recipe => {
-        const reviewBadge = recipe.needsReview ? ' <span style="color:red;"> Needs Review!</span>' : '';
-        return `<a href="${recipe.url}">${recipe.title}</a>${reviewBadge}`;
+        return `<a href="${recipe.url}">${recipe.title}</a>`;
       }).join('<br>');
 
       container.innerHTML = html;
