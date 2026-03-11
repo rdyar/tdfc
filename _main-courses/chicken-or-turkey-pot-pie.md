@@ -18,7 +18,7 @@ minutes. Add peas. Mix flour and water until smooth, then add to vegetables and 
 thickened. May need to add liquid (use milk if it needs thinning). Season with pepper and garlic 
 powder. Add chicken or turkey and keep hot. 
 
-Prepare biscuit topping: Mix milk, Bisquick and margarine together and tum onto floured board 
+Prepare biscuit topping: Mix milk, Bisquick and margarine together and turn onto floured board 
 or on waxed paper. Flatten to shape of casserole or 8x10 Pyrex baking dish. Grease dish. Pour 
 hot mixture into dish. Place biscuit dough on top and cut 3-4 slits in top. If dish is real full, place 
 foil or cookie sheet under dish in oven to catch spills. Bake 15 minutes at 425 degrees. Let 
